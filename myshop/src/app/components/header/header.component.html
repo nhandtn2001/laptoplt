@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="./header.component.css">
+   </head>
+   <body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top jusitfy-content">
+      <div class="container" >
+        <a id="logo" href="Home" class="logo"><img src="./assets/images/logo.jpg" alt=""[style.width]="'50px'" [style.height]="'50px'"></a>
+        <a href="Home" class="navbar-brand mr-0" >RESMAN</a>
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse jusitfy-content-between algin-items-center"
+          id="collapsingNavbar2">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active c">
+              <a class="nav-link"href="Home"><i class="fas fa-user">Trang chủ</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="Menu"><i class="fas fa-user">Thực đơn</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="Contact"><i class="fas fa-user">Đặt bàn</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="About"><i class="fas fa-user">Về chúng tôi </i></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 search-form">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search"><a href="Menu" class="btn btn-danger" style="margin-right:5px ; width: 100px; height: 50 px; text-align: center; color: white;">Tìm kiếm</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </body>
+</html>

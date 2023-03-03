@@ -1,14 +1,11 @@
-.item{
-  width:500px;
-  height:420px;
-}
-.product{
-  width: 700px;
+
+.banner{
+  border-top: 500px solid #ccc;
   height: 600px;
+  background-position: center ;
 }
-.Products{
-  border-top: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #C0C0C0;
+.h1{
+  font-size: 150px;
+  top: 40%;
+  left: 30%;
 }
