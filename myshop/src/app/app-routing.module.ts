@@ -1,3 +1,4 @@
+import { ListingComponent } from './components/listing/listing.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -26,6 +27,8 @@ const routes: Routes = [
   {path: 'Password', component:PasswordComponent},
 
   {path: 'Admin', component:AdminComponent},
+
+  {path: 'List', component:ListingComponent},
 ];
 
 @NgModule({
