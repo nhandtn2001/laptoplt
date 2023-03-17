@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { PasswordComponent } from './components/password/password.component';
+import { AdminComponent } from './components/admin/admin.component';
+import { AdminRoutingModule } from './components/admin/admin.rounting.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +25,12 @@ import { PasswordComponent } from './components/password/password.component';
     LoginComponent,
     SigninComponent,
     PasswordComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

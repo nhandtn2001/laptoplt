@@ -7,9 +7,11 @@ import { AboutComponent } from './components/about/about.component';
 import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { PasswordComponent } from './components/password/password.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 const routes: Routes = [
-  {path:'Home', component: HomeComponent},
+  {
+    path:'Home', component: HomeComponent},
 
   {path:'Menu',component:MenuComponent},
 
@@ -23,6 +25,7 @@ const routes: Routes = [
 
   {path: 'Password', component:PasswordComponent},
 
+  {path: 'Admin', component:AdminComponent},
 ];
 
 @NgModule({
