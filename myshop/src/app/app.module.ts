@@ -13,6 +13,9 @@ import { SigninComponent } from './components/signin/signin.component';
 import { PasswordComponent } from './components/password/password.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { AdminRoutingModule } from './components/admin/admin.rounting.component';
+import { ListingComponent } from './components/listing/listing.component';
+import { BookingComponent } from './components/booking/booking.component';
+import { AddmonComponent } from './components/addmon/addmon.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { AdminRoutingModule } from './components/admin/admin.rounting.component'
     SigninComponent,
     PasswordComponent,
     AdminComponent,
+    ListingComponent,
+    BookingComponent,
+    AddmonComponent,
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,8 @@ import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { PasswordComponent } from './components/password/password.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { BookingComponent } from './components/booking/booking.component';
+import { AddmonComponent } from './components/addmon/addmon.component';
 
 const routes: Routes = [
   {
@@ -29,6 +31,8 @@ const routes: Routes = [
   {path: 'Admin', component:AdminComponent},
 
   {path: 'List', component:ListingComponent},
+  {path: 'Booking', component:BookingComponent},
+  {path: 'Addmon', component:AddmonComponent},
 ];
 
 @NgModule({
