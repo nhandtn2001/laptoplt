@@ -16,7 +16,9 @@ import { AdminRoutingModule } from './components/admin/admin.rounting.component'
 import { ListingComponent } from './components/listing/listing.component';
 import { BookingComponent } from './components/booking/booking.component';
 import { AddmonComponent } from './components/addmon/addmon.component';
-
+import { AddmonService } from './services/addmon.service';
+import {HttpClientModule} from '@angular/common/http'
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,9 +38,13 @@ import { AddmonComponent } from './components/addmon/addmon.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [
+    AddmonService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

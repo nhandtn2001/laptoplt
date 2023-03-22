@@ -1,3 +1,5 @@
+import { AddmonService } from './../../services/addmon.service';
+import { AddmonComponent } from './../addmon/addmon.component';
 import{Component, OnInit} from '@angular/core';
 
 @Component({
@@ -7,7 +9,7 @@ import{Component, OnInit} from '@angular/core';
 })
 
 export class ListingComponent implements OnInit{
-  constructor() {}
+  constructor(private add: AddmonService) {}
    ngOnInit(): void {
    }
 }
