@@ -41,22 +41,6 @@ app.post("/addmon",async(req, res)=>{
     res.send("Add successful");
 });
 
-//FETCH
-app.get('/search/:id', function(req, res){
-  fetchid=req.params.id;
-  monmodel.find(({}), function(err,val){
-      if(err){
-          console.log("Error!");
-      }else{
-          if(val.length==0){
-              res.send("Data doesn't exist");
-          }else{
-              res.send(val);
-          }
-      }
-  })
-})
-
 app.listen(3000,()=>{
   console.log("On port 3000")
 })

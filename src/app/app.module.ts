@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
@@ -11,14 +10,11 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { PasswordComponent } from './components/password/password.component';
-import { AdminComponent } from './components/admin/admin.component';
-import { AdminRoutingModule } from './components/admin/admin.rounting.component';
 import { ListingComponent } from './components/listing/listing.component';
 import { BookingComponent } from './components/booking/booking.component';
 import { AddmonComponent } from './components/addmon/addmon.component';
-import { AddmonService } from './services/addmon.service';
-import {HttpClientModule} from '@angular/common/http'
-import { FormsModule } from '@angular/forms';
+import { AdminpageComponent } from './components/adminpage/adminpage.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,21 +26,16 @@ import { FormsModule } from '@angular/forms';
     LoginComponent,
     SigninComponent,
     PasswordComponent,
-    AdminComponent,
     ListingComponent,
     BookingComponent,
     AddmonComponent,
+    AdminpageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminRoutingModule,
-    HttpClientModule,
-    FormsModule
   ],
-  providers: [
-    AddmonService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
