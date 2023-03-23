@@ -12,6 +12,7 @@ import { PasswordComponent } from './components/password/password.component';
 import { BookingComponent } from './components/booking/booking.component';
 import { AddmonComponent } from './components/addmon/addmon.component';
 import { AdminpageComponent } from './components/adminpage/adminpage.component';
+import { CartComponent } from './components/cart/cart.component';
 
 const routes: Routes = [
   {path:'Home', component: HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'Booking', component:BookingComponent},
   {path: 'Addmon', component:AddmonComponent},
   {path: 'Adminpage', component:AdminpageComponent},
+  {path: 'Cart', component:CartComponent},
 
 ];
 

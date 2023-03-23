@@ -14,6 +14,7 @@ import { ListingComponent } from './components/listing/listing.component';
 import { BookingComponent } from './components/booking/booking.component';
 import { AddmonComponent } from './components/addmon/addmon.component';
 import { AdminpageComponent } from './components/adminpage/adminpage.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { AdminpageComponent } from './components/adminpage/adminpage.component';
     BookingComponent,
     AddmonComponent,
     AdminpageComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
