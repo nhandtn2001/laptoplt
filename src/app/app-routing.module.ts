@@ -1,3 +1,4 @@
+import { OrderManagementComponent } from './components/ordermanagement/ordermanagement.component';
 //import { AdminComponent } from './components/admin/admin.component';
 import { ListingComponent } from './components/listing/listing.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -29,6 +30,7 @@ const routes: Routes = [
   {path: 'Adminpage', component:AdminpageComponent},
   {path: 'Cart', component:CartComponent},
   {path: 'Cash', component:CashComponent},
+  {path: 'OrderManagement', component:OrderManagementComponent},
 ];
 
 @NgModule({

@@ -1,3 +1,4 @@
+import { OrderManagementComponent } from './components/ordermanagement/ordermanagement.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -36,6 +37,7 @@ import { OrderComponent } from './components/order/order.component';
     CartComponent,
     CashComponent,
     OrderComponent,
+    OrderManagementComponent,
   ],
   imports: [
     BrowserModule,
