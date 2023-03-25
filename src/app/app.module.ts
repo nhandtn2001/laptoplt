@@ -15,6 +15,8 @@ import { BookingComponent } from './components/booking/booking.component';
 import { AddmonComponent } from './components/addmon/addmon.component';
 import { AdminpageComponent } from './components/adminpage/adminpage.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CashComponent } from './components/cash/cash.component';
+import { OrderComponent } from './components/order/order.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { CartComponent } from './components/cart/cart.component';
     AddmonComponent,
     AdminpageComponent,
     CartComponent,
+    CashComponent,
+    OrderComponent,
   ],
   imports: [
     BrowserModule,

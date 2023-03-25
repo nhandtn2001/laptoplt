@@ -188,7 +188,9 @@ button span:after {
 .cart-icon{
   background-color: #e3eeff;
 }
-
+.search-icon{
+  margin-right: 1%;
+}
 shopee-svg-icon{
   color:#616161;
 }
