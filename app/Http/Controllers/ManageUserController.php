@@ -22,7 +22,7 @@ class ManageUserController extends Controller
             return redirect('admin')->send();
         }
     }
-
+ 
     // USER MANAGEMENT
 
     public function list_clients()
