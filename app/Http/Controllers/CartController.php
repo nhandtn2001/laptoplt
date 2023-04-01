@@ -56,7 +56,7 @@ class CartController extends Controller {
                     );
                     Session::put('cart', $cart);
                 }
- 
+
             }
             if ($is_available == 0) {
                 $cart[] = array(
