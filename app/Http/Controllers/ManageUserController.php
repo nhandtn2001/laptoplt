@@ -195,4 +195,3 @@ class ManageUserController extends Controller
     }
 
 }
-  
