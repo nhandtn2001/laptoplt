@@ -3,7 +3,7 @@
 <h1 class="h3 mb-4 text-gray-800">Đối tác - khách hàng</h1>
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h5 class="m-0 font-weight-bold text-primary">Thêm đối tác</h5>
+        <h5 class="m-0 font-weight-bold text-primary">Thêm đối tác</h5> 
     </div>
     <div class="container card-body">
         <form action="{{url('/luu-doi-tac')}}" method="post" enctype="multipart/form-data">
