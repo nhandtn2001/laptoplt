@@ -133,7 +133,7 @@ class CheckoutController extends Controller
 
         $this->AuthLogin();
 
-        $data = Session::get('data');
+        $data = Session::get('data'); 
         $data['created_at'] = now();
         $shipping_id = DB::table('tbl_shipping')->insertGetId($data);
         Session::put('shipping_id',$shipping_id);
