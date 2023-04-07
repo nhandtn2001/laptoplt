@@ -128,11 +128,11 @@ class PostController extends Controller
     public function delete_post($post_id) {
         $this->AuthLogin();
         DB::table('tbl_post')->where('post_id', $post_id)->delete();
-        Session::put('message', 'Đã xóa bài viết thành công!');
+        Session::put('message', 'Xóa bài viết thành công!');
         return redirect('list-post');
     }
     // End function Admin Pages
-
+ 
     // ở postcontroller (tìm đoạn code thay vào)
 
 public function content_post($post_id) {
